@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+    tools:context=".ui.LoginActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="loginToRest"
+        android:text="@string/log_in_button_text"
+        android:textSize="@dimen/button_text_size"
+        style="@style/LoginButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text="@string/login_twitter_headline"
+        android:id="@+id/tvTwitterHeadline"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="64dp"
+        android:layout_below="@+id/ivTwitterLogo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/login_twitter_body"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/tvLoginBody"
+        android:layout_below="@+id/tvTwitterHeadline"
+        android:layout_alignLeft="@+id/tvTwitterHeadline"
+        android:layout_alignStart="@+id/tvTwitterHeadline" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/ivTwitterLogo"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/twitter_social_icon_white"
+        android:layout_alignLeft="@+id/tvTwitterHeadline"
+        android:layout_alignStart="@+id/tvTwitterHeadline"
+        android:layout_marginTop="48dp" />
+
+</RelativeLayout>
