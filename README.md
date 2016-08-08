@@ -51,7 +51,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/placeholder.gif' width='300'/>
+<img src='http://imgur.com/tpwM1zD.gif' width='300'/>
 
 ## Open-source libraries used
 
